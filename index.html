@@ -1,54 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-  <title>MySpace - Home</title>
-  <style>
-  </style>
-</head>
-<body>
-  <div id="header">
-    <h1>MySpace</h1>
-  </div>
-  <div id="nav">
-    <a href="#">Home</a>
-    <a href="#">Browse</a>
-    <a href="#">Search</a>
-    <a href="#">Messages</a>
-    <a href="#">Friends</a>
-    <a href="#">Logout</a>
-  </div>
-  <div id="main">
-    <div id="left">
-      <div class="module">
-        <h3>My Profile</h3>
-        <img src="assets/IMG_6771.jpeg  " width="100">
-        <p><a href="#">View My Profile</a></p>
-      </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sarah Smith portfolioSpace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+<body class="bg" style="background-image: url(assets/background.jpg); width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover;"></body>
+  <header class="container col-10 bg-white opacity-75">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+          <ul class="nav-bar">
+            <!-- Main Navigation inside <header> -->
+            <li class="nav-item">
+              <a class="active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills-tools">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" id="contact-link">Contact</a>
+            </li>
+          </ul>
+          </div>
+        </nav>
+  </header>
+  <div class="container col-10 bg-black myspace-background-screen">
+  <section class="container my-3 profile-pic">
+    <div class="col-7 bg-primary">
+    <img class="img-fluid online-now" src="https://archive.org/download/myspaceon/myspaceon.gif" alt="online now logo"></img>
     </div>
-    <div id="center">
-      <div class="module">
-        <h2>Welcome, [Username]!</h2>
-        <p>You have 1 new message</p>
-        <p>Friend Requests: 2</p>
-      </div>
-      <div class="module">
-        <h3>Friend Updates</h3>
-        <ul>
-          <li>Tom posted a new bulletin</li>
-          <li>Sarah changed her profile picture</li>
-        </ul>
-      </div>
-    </div>
-    <div id="right">
-      <div class="module">
-        <h3>Cool New People</h3>
-        <ul>
-          <li><a href="#">User123</a></li>
-          <li><a href="#">EmoKid89</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  </section>
+  <section class="container my-3 posts">
+    <p class="text-light">this is where my portfolio projects will go</p>
+  </section>
+  <section class="container my-3 contact-sarah">
+    <p class="text-light">this is where socials will go</p>
+  </section>
+  <section class="container my-3 music-player">
+    <p class="text-light">this is where I will embed a song w/JS</p>
+  </section>
+  <section class="container my-3 interests">
+    <p class="text-light">As someone who grew up putting together puzzles, reading mystery
+                novels (that I would unavoidably solve early on), the transition
+                into the development space was never an “if” but an inevitable
+                “when”.</p>
+    <p class="text-light">
+                When I'm not coding, you can find me reading a romantasy book
+                series, headbanging to early 00's emo music, walking around
+                EPCOT, or all three at once.
+              </p>
+  </section>
+  <section class="container my-3 top-8">
+    <p class="text-light">this is where my top 8 skills, tools & favorite languages will go</p>
+  </section>
+  <footer class="container my-3 footer-info">my contact info will go here again</footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
