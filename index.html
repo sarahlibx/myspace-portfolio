@@ -7,47 +7,80 @@
     <title>Sarah Smith portfolioSpace</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   </head>
-<body class="bg" style="background-image: url(assets/background.jpg); width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover;"></body>
+<body class="bg" style="background-image: url(assets/background.jpg); width: 100%; height: 100vh; background-repeat: repeat; background-size: cover;"></body>
+
   <header class="container col-10 bg-white opacity-75">
-  <nav class="navbar bg-body-tertiary">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-          <ul class="nav-bar">
-            <!-- Main Navigation inside <header> -->
-            <li class="nav-item">
-              <a class="active" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-me">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills-tools">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" id="contact-link">Contact</a>
-            </li>
-          </ul>
-          </div>
-        </nav>
-  </header>
-  <div class="container col-10 bg-black myspace-background-screen">
-  <section class="container my-3 profile-pic">
-    <div class="col-7 bg-primary">
-    <img class="img-fluid online-now" src="https://archive.org/download/myspaceon/myspaceon.gif" alt="online now logo"></img>
+    <a class="navbar-brand" href="#">insert image here</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#interests">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#posts">Projects</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#top-8">Skills</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#contact-sarah">Contact</a>
+        </li>
+      </ul>
     </div>
-  </section>
-  <section class="container my-3 posts">
-    <p class="text-light">this is where my portfolio projects will go</p>
-  </section>
-  <section class="container my-3 contact-sarah">
-    <p class="text-light">this is where socials will go</p>
-  </section>
-  <section class="container my-3 music-player">
-    <p class="text-light">this is where I will embed a song w/JS</p>
-  </section>
-  <section class="container my-3 interests">
+  </div>
+</nav>
+  </header>
+  <!-- universal background -->
+  <div class="container col-10 bg-black myspace-background-screen">
+
+    <!-- Content for the first row -->
+      <div class="container two-column-layout">
+      <div class="row profile-pic">
+        <div class="col-md-6 bg-primary mx-3">
+          <!-- Content for the first column -->
+           <img class="img-fluid profile-pic" src="assets/IMG_6771.jpeg" alt="profile picture"></img>
+           <img class="img-fluid online-now" src="https://archive.org/download/myspaceon/myspaceon.gif" alt="online now logo"></img>
+        </div>
+        <div class="col-md-5 bg-primary mx-3" id="posts">
+          <!-- Content for the second column -->
+          <p class="text-light">this is where my portfolio projects will go</p>
+        </div>
+      </div>
+    </div>
+
+ <!-- Content for the second row -->
+<div class="container two-column-layout" id="contact-sarah">
+      <div class="row contact-me">
+        <div class="col-md-6 bg-primary mx-3 my-3">
+          <!-- Content for the first column -->
+          <p class="text-light">this is where socials will go</p>
+        </div>
+      </div>
+    </div>
+
+ <!-- Content for the third row & first column-->
+  <div class="container two-column-layout">
+<div class="row music-player"> 
+<div class="col-md-6 bg-primary mx-3 my-3" id="music-player">
+  <p class="text-light">this is where I will embed a song w/JS</p>
+</div>
+</div>
+</div>  
+
+ <!-- Content for the fourth row -->
+  <div class="container two-column-layout">
+  <div class="row about-me">
+<div class="col-md-6 bg-primary mx-3 my-3" id="interests">
+  <!-- Content for the first column -->
     <p class="text-light">As someone who grew up putting together puzzles, reading mystery
                 novels (that I would unavoidably solve early on), the transition
                 into the development space was never an “if” but an inevitable
@@ -57,10 +90,15 @@
                 series, headbanging to early 00's emo music, walking around
                 EPCOT, or all three at once.
               </p>
-  </section>
-  <section class="container my-3 top-8">
+</div>
+
+  <div class="col-md-5 bg-primary mx-3" id="top-8">
     <p class="text-light">this is where my top 8 skills, tools & favorite languages will go</p>
-  </section>
+  </div>
+  </div>
+</div>
+
+
   <footer class="container my-3 footer-info">my contact info will go here again</footer>
 </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
