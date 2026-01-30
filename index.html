@@ -1,227 +1,342 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sarah Smith portfolioSpace</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <!-- main background image -->
-<body class="bg" style="background-image: url(assets/background.jpg); width: 100%; height: 100vh; background-repeat: repeat; background-size: cover;">
-  <header class="container col-10 bg-white opacity-75">
-
-<!-- nav bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">insert image here</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#interests">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#posts">Projects</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#top-8">Skills</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="#contact-sarah">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</header>
-
-<!-- myspace style background -->
-  <div class="container col-10 bg-black myspace-background-screen">
-
-<!-- Content for the first row -->
-  <div class="two-column-layout">
-    <div class="row align-items-start profile-pic">
-      <div class="col-md-6 bg-secondary mx-3">
-
-<!-- Content for the first column -->
-        <div class="mt-4 profile-picture">
-          <img class="img-fluid profile-pic" src="assets/IMG_6771.jpeg" alt="profile picture"></img>
-        </div>
-        <div class="row bio">
-          <div class="col-md-6 my-3">
-            <p class="text-center text-light quote">"If you think you've peaked, find a new mountain."</p>
-            <p class="text-center text-light location">Orlando, FL</p>
-          </div>
-          <div class="col-md-5 my-3">
-           <img class="online-now" src="https://archive.org/download/myspaceon/myspaceon.gif" alt="online now logo"></img>
-          </div>
+  <body
+    class="bg"
+    style="
+      background-image: url(assets/background.jpg);
+      width: 100%;
+      background-attachment: fixed;
+      background-repeat: repeat;
+      background-size: cover;
+    "
+  >
+    <header class="container col-10 bg-white opacity-75">
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">insert image here</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#interests">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#posts">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#top-8">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-sarah">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-        
-<!-- Content for the second column -->
-        <div class="col-md-5 bg-secondary p-3" id="posts">
-<!-- project 1 -->
-          <div class="my-4 text-center project-1">
-            <a
-                href="https://github.com/sarahlibx/recipe-app/tree/gh-pages"
-                target="_blank"
-                rel="noopener"
-              >
-                <img
-                  src="assets/full-stack-recipe.png"
-                  alt="Recipe App"
-                  class="img-fluid"
-                  width="300"
-                  height="200"
-              /></a>
-              <h3 class="text-light mt-2">Recipe App</h3>
-              <p class="project-description text-light">
-                A full stack web app that allows users to create, view, edit,
-                and delete detailed recipes. Built using React and Flask.
+      </nav>
+    </header>
+    <!-- layout container-->
+    <div class="container col-10 bg-white p-3 main-profile-wrapper my-5 shadow">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <!-- profile image & bio -->
+          <div class="bg-light border p-3 mb-4">
+            <h2 class="h4">Sarah Smith</h2>
+            <img
+              class="img-fluid border mb-2"
+              src="assets/IMG_6771.jpeg"
+              alt="profile pic"
+            />
+            <div class="d-flex align-items-center gap-3 my-3">
+              <p class="small mb-0 flex-grow-1 font-italic">
+                "If you think you've peaked, find a new mountain."
               </p>
-              <p class="text-light">Skills: Flask, React, Python, API's</p>
-              <p class="text-light">Tools: SQLite Database, GitHub Pages</p>
-          </div>
-<!-- project 2 -->          
-          <div class="mb-4 text-center project-2">
-            <a
-                href="https://sarahlibx.github.io/guess-the-word/"
-                target="_blank"
-                rel="noopener"
-              >
-                <img
-                  src="assets/guess-the-word.jpeg"
-                  alt="Guess The Word Webpage"
-                  class="img-fluid"
-                  width="300"
-                  height="200"
-                />
-              </a>
-              <h3 class="text-light mt-2">Guess The Word</h3>
-              <p class="project-description text-light">
-                A fun guessing game where players can guess a random word one
-                letter at a time. If the player guesses the correct word they
-                win!
-              </p>
-              <p class="text-light">Skills: Manipulate the DOM, Vanilla JavaScript</p>
-              <p class="text-light">Tools: GitHub, JSON</p>
-          </div>
-<!-- project 3 -->          
-          <div class="mb-4 text-center project-3">
-            <a href="https://49hcfp.csb.app/" target="_blank" rel="noopener">
-                <img
-                  src="assets/sticky-notes-2.jpeg"
-                  alt="Sticky Note App"
-                  class="img-fluid"
-                  width="300"
-                  height="200"
-              /></a>
-              <h3 class="text-light">Sticky Note App</h3>
-              <p class="project-description text-light">
-                Greenfield project creating a Sticky Notes web app. Uses
-                multiple components to build the classic sticky note UI with the
-                ability to add, edit, delete and search for notes.
-              </p>
-              <p class="text-light">Skills: ES6, JSX, Managing data flow, Manipulate the DOM</p>
-              <p class="text-light">Tools: CodeSandbox, Props, State</p>
-          </div>
-<!-- project 4 -->          
-         <div class="mb-4 text-center project-4">
-          <a href="https://sarahlibx.github.io/git-repo-gallery-page/"
-                target="_blank"
-                rel="noopener"
-              >
-                <img
-                  src="assets/github-gallery.jpeg"
-                  alt="GitHub Repo Gallery"
-                  width="300"
-                  height="200"
-              /></a>
-              <h3 class="text-light">GitHub Repo Gallery</h3>
-              <p class="project-description text-light">
-                Uses GitHub's API to pull data from my GitHub portfolio to
-                create a gallery of repos. Visitors to the site can click on the
-                repos to see more details and a link to the repo.
-              </p>
-              <p class="text-light">Skills: APIs, Manipulate the DOM</p>
-              <p class="text-light">Tools: REST API, GitHub Pages</p>
-         </div>
-        </div>
-      </div>
-    </div>  
 
- <!-- Content for the second row -->
-<div class="two-column-layout" id="contact-sarah">
-    <div class="row contact-me">
-      <div class="col-md-6 bg-secondary mx-3 my-3">
-          <!-- Content for the first column -->
-           <div class="row contact-section">
-           <div class="col-md-6 mt-3">
-            <a href="mailto: sarahlib90@gmail.com"><p class="text-light">
-              <img class="email-logo" height="25%" width="25%" src="assets/envelope-solid-full.svg" alt="email">Send message</p>
-            </a>
-            <a href="https://github.com/sarahlibx" target="_blank"><p class="text-light">
-              <img class="github-logo" height="25%" width="25%" src="assets/square-github-brands-solid-full.svg" alt="email">Connect on github</p>
-            </a>
+              <img
+                class="online-now"
+                style="height: 30px; width: auto; flex-shrink: 0"
+                src="https://archive.org/download/myspaceon/myspaceon.gif"
+                alt="online now"
+              />
             </div>
-           <div class="col-md-6 mt-3">
-          <a href="https://www.linkedin.com/in/sarahsmithdeveloper" target="_blank"><p class="text-light">
-            <img class="linked-logo" height="25%" width="25%" src="assets/square-linkedin-brands-solid-full.svg" alt="email">Add to friends</p>
-          </a>
-           <a href="https://www.instagram.com/_sarahlib/" target="_blank"><p class="text-light">
-            <img class="insta-logo" height="25%" width="25%" src="assets/square-instagram-brands-solid-full.svg" alt="email">Find me on social</p>
-          </a>
+          </div>
+          <!-- contact me box -->
+          <div class="card border-primary mb-4" id="contact-sarah">
+            <div class="card-header bg-primary text-white fw-bold py-1">
+              Contacting Sarah
+            </div>
+            <div class="card-body bg-white">
+              <div class="row g-2">
+                <div class="col-6">
+                  <a
+                    href="mailto:sarahlib90@gmail.com"
+                    class="text-decoration-none d-block mb-2"
+                  >
+                    <img
+                      src="assets/envelope-solid-full.svg"
+                      alt="email"
+                      width="18"
+                      class="me-2"
+                    />
+                    <span class="small text-primary">Send Message</span>
+                  </a>
+                  <a
+                    href="https://github.com/sarahlibx"
+                    target="_blank"
+                    class="text-decoration-none d-block"
+                  >
+                    <img
+                      src="assets/square-github-brands-solid-full.svg"
+                      alt="github"
+                      width="18"
+                      class="me-2"
+                    />
+                    <span class="small text-primary">GitHub Repo</span>
+                  </a>
+                </div>
+
+                <div class="col-6">
+                  <a
+                    href="https://www.linkedin.com/in/sarahsmithdeveloper"
+                    target="_blank"
+                    class="text-decoration-none d-block mb-2"
+                  >
+                    <img
+                      src="assets/square-linkedin-brands-solid-full.svg"
+                      alt="linkedin"
+                      width="18"
+                      class="me-2"
+                    />
+                    <span class="small text-primary">Add to Friends</span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/_sarahlib/"
+                    target="_blank"
+                    class="text-decoration-none d-block"
+                  >
+                    <img
+                      src="assets/square-instagram-brands-solid-full.svg"
+                      alt="instagram"
+                      width="18"
+                      class="me-2"
+                    />
+                    <span class="small text-primary">Find on Social</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- about me -->
+          <div class="card border-primary mb-4" id="interests">
+            <div class="card-header bg-primary text-white fw-bold py-1">
+              Sarah's Interests
+            </div>
+            <div class="card-body small">
+              <p><strong>General:</strong> EPCOT, romantasy novels, coding.</p>
+              <p><strong>Music:</strong> Early 00's emo, headbanging.</p>
+            </div>
+          </div>
+
+          <!-- music player goes here -->
+          <div class="bg-light border p-3 mb-4 text-center">
+            <p class="text-muted small italic">[Music Player goes here]</p>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="card border-primary mb-4" id="posts">
+            <div class="card-header bg-primary text-white fw-bold py-1">
+              My Projects
+            </div>
+
+            <div class="card-body border-bottom">
+              <div class="text-center project-1">
+                <h3 class="h5">Recipe App</h3>
+                <a
+                  href="https://github.com/sarahlibx/recipe-app"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/full-stack-recipe.png"
+                    class="img-fluid border mb-2"
+                    width="300"
+                  />
+                </a>
+                <p class="small">
+                  A full stack web app built using React and Flask.
+                </p>
+              </div>
+            </div>
+
+            <div class="card-body border-bottom">
+              <div class="text-center project-2">
+                <h3 class="h5">Guess The Word</h3>
+                <a
+                  href="https://sarahlibx.github.io/guess-the-word/"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/guess-the-word.jpeg"
+                    class="img-fluid border mb-2"
+                    width="300"
+                  />
+                </a>
+                <p class="small">A fun vanilla JS guessing game.</p>
+              </div>
+            </div>
+
+            <div class="card-body border-bottom">
+              <div class="text-center project-3">
+                <h3 class="h5">Sticky Note App</h3>
+                <a href="https://49hcfp.csb.app/" target="_blank">
+                  <img
+                    src="assets/sticky-notes-2.jpeg"
+                    class="img-fluid border mb-2"
+                    width="300"
+                  />
+                </a>
+                <p class="small">React project managing data flow and state.</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="text-center project-4">
+                <h3 class="h5">GitHub Repo Gallery</h3>
+                <a
+                  href="https://sarahlibx.github.io/git-repo-gallery-page/"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/github-gallery.jpeg"
+                    class="img-fluid border mb-2"
+                    width="300"
+                  />
+                </a>
+                <p class="small">API-driven gallery of GitHub repositories.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-primary" id="top-8">
+            <div class="card-header bg-primary text-white fw-bold py-1">
+              Sarah's Top 8 Skills
+            </div>
+            <div class="card-body">
+              <div class="row row-cols-4 g-2 text-center">
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">React</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">Python</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">Flask</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">JavaScript</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">HTML</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">CSS</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">SQLite</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+                <div class="col">
+                  <p class="small mb-1 text-primary fw-bold">GitHub</p>
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="img-fluid border border-primary p-1"
+                    alt="React"
+                  />
+                </div>
+              </div>
+
+              <div class="text-end mt-2">
+                <a
+                  href="#top-8"
+                  class="small text-danger text-decoration-none fw-bold"
+                  >View All Sarah's Friends</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <!-- final closing div -->
     </div>
-  </div>
-
- <!-- Content for the third row & first column-->
-  <div class="two-column-layout">
-    <div class="row music-player"> 
-      <div class="col-md-6 bg-secondary mx-3 my-3" id="music-player">
-        <p class="text-light">this is where I will embed a song w/JS</p>
-      </div>
-    </div>
-  </div>  
-
- <!-- Content for the fourth row -->
-  <div class="two-column-layout">
-    <div class="row about-me">
-      <div class="col-md-6 bg-secondary mx-3 my-3" id="interests">
-  <!-- Content for the first column -->
-        <p class="text-light">As someone who grew up putting together puzzles, reading mystery
-                novels (that I would unavoidably solve early on), the transition
-                into the development space was never an “if” but an inevitable
-                “when”.</p>
-        <p class="text-light">
-                When I'm not coding, you can find me reading a romantasy book
-                series, headbanging to early 00's emo music, walking around
-                EPCOT, or all three at once.
-              </p>
-      </div>
-      
-      <div class="col-md-5 bg-secondary mx-3" id="top-8">
-        <div class="row top-8-skills">
-          <p class="text-light">this is where my top 8 skills, tools & favorite languages will go</p>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- final closing div -->  
-</div>
-
-  <footer class="container col-10 bg-white opacity-75 footer-info">
-    <div class="footer-details">my contact info will go here again</div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-</body>
+    <footer
+      class="container col-10 bg-white opacity-75 footer-info my-4 p-3 shadow-sm text-center"
+    >
+      <div class="footer-details">my contact info will go here again</div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

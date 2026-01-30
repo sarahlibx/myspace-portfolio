@@ -1,10 +1,44 @@
-.online-now {
+/* .online-now {
     max-width: 100%;
     height: auto;
+} */
+
+#contact-sarah a {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 12px; /* Small text was a hallmark of 2005 web design */
+}
+
+#contact-sarah a:hover {
+    text-decoration: underline !important;
+    color: #cc0000; /* Optional: old school link hover color */
+}
+
+.card, .card-header, .btn, .border {
+  border-radius: 0 !important; /* Forces 2005-style sharp corners */
+}
+
+.card-header {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
 }
 
 a {
   text-decoration: none;
+}
+
+#top-8 img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    background-color: #fff;
+}
+
+#top-8 p {
+    font-size: 10px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Extra small devices (phones, 600px and down) */
