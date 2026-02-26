@@ -19,10 +19,10 @@ export function ContactBox() {
                 <img
                   src={link.icon}
                   alt={link.label}
-                  width="18"
+                  width="20"
                   className="me-2"
                 />
-                <span className="small text-primary">{link.label}</span>
+                <span className="text-primary">{link.label}</span>
               </a>
             </div>
           ))}

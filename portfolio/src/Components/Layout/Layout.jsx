@@ -27,7 +27,7 @@ export function Layout({ children }) {
       </main>
 
       <footer className="container col-10 bg-white opacity-75 my-4 p-3 text-center shadow-sm">
-        <p className="small mb-0">Built with love by Sarah — 2026</p>
+        <p className="small mb-0">Built with 🖤 by Sarah &copy;2026</p>
       </footer>
     </div>
   );

@@ -7,7 +7,7 @@ export function ProjectCard({ title, link, img, desc }) {
         <a href={link} target="_blank" rel="noreferrer">
           <img src={img} className="img-fluid border mb-2" width="300" alt={title} />
         </a>
-        <p className="small">{desc}</p>
+        <p className="small mx-5">{desc}</p>
       </div>
     </div>
   );

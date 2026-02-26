@@ -1,17 +1,12 @@
-/* .online-now {
-    max-width: 100%;
-    height: auto;
-} */
-
-#contact-sarah a {
+/* #contact-sarah a {
     font-weight: bold;
     font-family: Arial, sans-serif;
-    font-size: 12px; /* Small text was a hallmark of 2005 web design */
-}
+    font-size: 12px; 
+} */
 
 #contact-sarah a:hover {
     text-decoration: underline !important;
-    color: #cc0000; /* Optional: old school link hover color */
+    color: #000000;
 }
 
 .card, .card-header, .btn, .border {

@@ -8,6 +8,7 @@ export function ProfileHeader({ name, profileImg, quote }) {
         className="img-fluid border mb-2"
         src={profileImg}
         alt={`${name}'s profile`}
+        style= {{ height: '450px', width: 'auto' }}
       />
 
       <div className="d-flex align-items-center gap-3 my-3">

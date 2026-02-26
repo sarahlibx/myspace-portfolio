@@ -1,21 +1,27 @@
 export const PROJECTS = [
   {
-    title: "Recipe App",
-    link: "https://github.com/sarahlibx/recipe-app",
-    img: "assets/full-stack-recipe.png",
-    desc: "A full stack web app built using React and Flask."
+    title: "devSpace",
+    link: "https://my-devspace.netlify.app",
+    img: "assets/devspace.png",
+    desc: "A vibrant, MySpace-inspired social networking interface that brings back the nostalgia of 'Top 8' friends and profile songs, built with modern web technologies."
   },
   {
-    title: "Guess The Word",
-    link: "https://sarahlibx.github.io/guess-the-word/",
-    img: "assets/guess-the-word.jpeg",
-    desc: "A fun vanilla JS guessing game."
+    title: "Money Mentor",
+    link: "https://money-mentor-tracker.netlify.app/",
+    img: "assets/moneymentor.png",
+    desc: "Money Mentor is a react-based CRUD application for tracking personal finances and building better money habits through visibility and motivation."
   },
   {
-    title: "Sticky Note App",
-    link: "https://49hcfp.csb.app/",
-    img: "assets/sticky-notes-2.jpeg",
-    desc: "React project managing data flow and state."
+    title: "TBR Book Tracker",
+    link: "https://tbr-book-tracker-d4b43b645d84.herokuapp.com",
+    img: "assets/booktracker.png",
+    desc: "The TBR Book Tracker is an app where users can create a virtual bookshelf of books they have read, want to read or are currently reading!"
+  },
+  {
+    title: "Concentration Game",
+    link: "https://sarahlibx.github.io/concentration-memory-game/",
+    img: "assets/memorygame.png",
+    desc: "Concentration is a game in which a set of cards are all laid face down on a surface and two cards are flipped face up over each turn. Concentrate and find all matches before you run out of attempts!"
   },
   {
     title: "GitHub Repo Gallery",
@@ -29,12 +35,12 @@ export const PROJECTS = [
 export const SKILLS = [
   { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+  { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" },
+  { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+  { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
+  { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+  { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" },
+  { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
 ];
 
 export const CONTACT_LINKS = [
@@ -49,7 +55,7 @@ export const CONTACT_LINKS = [
     icon: "assets/square-linkedin-brands-solid-full.svg" 
   },
   { 
-    label: "GitHub Repo", 
+    label: "GitHub Profile", 
     url: "https://github.com/sarahlibx", 
     icon: "assets/square-github-brands-solid-full.svg" 
   },

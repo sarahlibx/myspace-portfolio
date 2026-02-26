@@ -1,4 +1,5 @@
-import './style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
 import { useState } from 'react';
 import { PROJECTS, SKILLS, ABOUT } from './data';
 import { ProjectCard } from './Components/ProjectCard/ProjectCard';
