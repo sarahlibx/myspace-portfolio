@@ -15,7 +15,7 @@ const MySpacePlayer = () => {
     };
 
     return (
-        <div className="myspace-player p-0 border-0">
+        <div className="myspace-player bg-white p-0 border-0">
             <h6 className="player-title bg-primary">Now Playing: Helena - My Chemical Romance</h6>
 
             <audio 
@@ -24,7 +24,7 @@ const MySpacePlayer = () => {
                 onEnded={() => setIsPlaying(false)}   
             />
             
-            <div className="d-flex align-items-center player-container mx-2">
+            <div className="d-flex align-items-center player-container mx-3">
                 <img 
                     src="../../assets/mcrcover.jpg" 
                     alt="My Chemical Romance Album Artwork"

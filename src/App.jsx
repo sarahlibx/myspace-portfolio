@@ -26,10 +26,7 @@ function App() {
               />
               <ContactBox />
               <AboutMe about={ABOUT}/>
-              <div className="bg-light">
-                {/* <p className="text-muted small italic">[Music Player goes here]</p> */}
-                <MySpacePlayer />
-              </div>
+              <MySpacePlayer />
           </div>
           {/* COLUMN RIGHT */}
             <div className="col-md-7">
