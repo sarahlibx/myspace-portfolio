@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import '../../style.css';
+import './MySpacePlayer.css';
 
 const MySpacePlayer = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -15,11 +15,11 @@ const MySpacePlayer = () => {
     };
 
     return (
-        <div className="myspace-player border-0">
+        <div className="myspace-player p-0 border-0">
             <h6 className="player-title bg-primary">Now Playing: Helena - My Chemical Romance</h6>
 
             <audio 
-                src="../../assets/helena.mp3"
+                src="../../assets/helena-compressed.mp3"
                 ref={audioRef}
                 onEnded={() => setIsPlaying(false)}   
             />
