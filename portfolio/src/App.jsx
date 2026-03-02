@@ -8,6 +8,7 @@ import { ProfileHeader } from './Components/ProfileHeader/ProfileHeader';
 import { ContactBox } from './Components/ContactBox/ContactBox';
 import { AboutMe } from './Components/AboutMe/AboutMe';
 import { TopSkills } from './Components/TopSkills/TopSkills';
+import MySpacePlayer from './Components/MusicPlayer/MySpacePlayer';
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
               />
               <ContactBox />
               <AboutMe about={ABOUT}/>
-              <div className="bg-light border p-3 mb-4 text-center">
-                <p className="text-muted small italic">[Music Player goes here]</p>
+              <div className="bg-light">
+                {/* <p className="text-muted small italic">[Music Player goes here]</p> */}
+                <MySpacePlayer />
               </div>
           </div>
           {/* COLUMN RIGHT */}
